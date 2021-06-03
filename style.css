@@ -1,0 +1,48 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.logo h1{
+    padding: 5px;
+    text-align: center;
+}
+.container
+{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(145, 210, 240);
+    width: 100%;
+    min-height: 93vh;
+    height: 100%;
+}
+#form{
+    margin-top: 70px;
+    padding: 10px;
+}
+
+#input{
+    padding: 7px;
+    font-size: 20px;
+    border: none;
+    
+}
+#list{
+    list-style-type: none;
+    background-color: white;
+    
+}
+.item{
+    border-top: 1px solid grey;
+    font-size: 20px;
+    padding: 5px;
+    
+}
+.tggle{
+    text-decoration:line-through;
+}
+#p{
+    position: fixed;
+    top: 50px;
+    right: 10px;
+}
